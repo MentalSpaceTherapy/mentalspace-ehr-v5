@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MentalSpace EHR</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    header {
+      background-color: #4f46e5;
+      color: white;
+      padding: 1.5rem 0;
+    }
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #4f46e5;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .feature-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+    .feature-icon {
+      font-size: 2rem;
+      color: #4f46e5;
+      margin-bottom: 1rem;
+    }
+    button {
+      background-color: #4f46e5;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>MentalSpace EHR</h1>
+      <div>
+        <button>Login</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Welcome to MentalSpace EHR</h2>
+      <p>
+        MentalSpace EHR is a comprehensive Electronic Health Record system specifically designed for mental health practices. 
+        It provides a complete solution for managing clients, scheduling appointments, documenting sessions, 
+        handling billing and insurance claims, secure messaging, client relationship management, and practice administration.
+      </p>
+    </div>
+
+    <h2>Key Features</h2>
+    <div class="features">
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>Authentication & Security</h3>
+        <p>Secure login, role-based access control, and comprehensive audit logging</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">👥</div>
+        <h3>Staff Management</h3>
+        <p>Provider profiles, credentials, supervision relationships, and compensation tracking</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">👤</div>
+        <h3>Client Management</h3>
+        <p>Client records, insurance information, waitlist management, and client flags</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📅</div>
+        <h3>Scheduling</h3>
+        <p>Appointment booking, recurring appointments, provider availability, and calendar management</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📝</div>
+        <h3>Documentation</h3>
+        <p>Clinical notes, templates, versioning, diagnoses, and risk assessments</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💰</div>
+        <h3>Billing</h3>
+        <p>Insurance claims, payments, invoices, and authorizations management</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
